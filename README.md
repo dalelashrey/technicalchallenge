@@ -34,7 +34,7 @@ object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
 
-#### Solution 
+ #### Solution 
 
 Download Challenge3.ps1 and run it with powershell.
 
