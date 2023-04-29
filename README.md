@@ -7,8 +7,9 @@
 
 A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources on a cloud environment (Azure/AWS/GCP).  
  
- ### Solution
+ ### Solution -
  
+
  
  
 ### Challenge #2
@@ -17,9 +18,9 @@ A 3-tier environment is a common setup. Use a tool of your choosing/familiarity 
 We need to write code that will query the meta data of an instance within AWS or Azure or GCP and provide a json formatted output.
 The code allows for a particular data key to be retrieved individually
 
- ### Solution
+ ### Solution -
  
- 
+  Download Challenge2.ps1 and run it with powershell, prompts will guide you through the steps. Inputs VM name/subcriptionid/data key(optional)
  
  
 ### Challenge #3
@@ -34,7 +35,7 @@ object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
 
- #### Solution 
+ ### Solution -
 
 Download Challenge3.ps1 and run it with powershell.
 
