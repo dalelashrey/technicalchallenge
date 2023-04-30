@@ -9,7 +9,7 @@ A 3-tier environment is a common setup. Use a tool of your choosing/familiarity 
  
  ### Solution -
  
-
+Solution for this challenge is in the readme of Challenge1 folder
  
  
 ### Challenge #2
@@ -21,7 +21,16 @@ The code allows for a particular data key to be retrieved individually
  ### Solution -
  
   Download Challenge2.ps1 and run it with powershell, prompts will guide you through the steps. Inputs VM name/subcriptionid/data key(optional)
+  
+ > #With data key 
+ > Enter Subscription ID: 291bba3f-e0a5-47bc-a099-3bdcb2a50a05
+ > Enter the name of the VM: rhel-host
+ > Enter the data key to retrieve (or press enter to skip): network
  
+  > #With data key 
+ > Enter Subscription ID: 291bba3f-e0a5-47bc-a099-3bdcb2a50a05
+ > Enter the name of the VM: rhel-host
+ > Enter the data key to retrieve (or press enter to skip): 
  
 ### Challenge #3
 ---
