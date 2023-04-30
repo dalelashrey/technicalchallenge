@@ -3,14 +3,15 @@ Import-Module AzureADPreview
 Import-Module AzureAD
 Import-Module AzureRM.Profile
 
+$SubscriptionID = Read-Host "Enter Subscription ID"
+$vmName = Read-Host "Enter the name of the VM"
+
+
 # Set the subscription context
-Set-AzContext -SubscriptionId "replace_with_subscription_id"
+Set-AzContext -SubscriptionId "$SubscriptionID"
 
 # Authenticate with Azure AD
 Connect-AzureAD
-
-# Get the VM name as input
-$vmName = Read-Host "Enter the name of the VM"
 
 # Get the VM resource ID
 $vmResourceId = (Get-AzVM -Name $vmName).Id
