@@ -1,16 +1,5 @@
 
- 
-## Problem Statement
----
 
-
-A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
-
-&nbsp;
-&nbsp;
-&nbsp;
-
----
 
 ## Solution Overview
 The infrastructure deployed whing the defined configuration can be seen as in the picture below. It is a **bare minimum** 3-Tier Architecture
