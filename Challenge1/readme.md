@@ -4,7 +4,7 @@
 ## Solution Overview
 The infrastructure deployed whing the defined configuration can be seen as in the picture below. It is a **bare minimum** 3-Tier Architecture
 
-![Arch](https://github.com/ShreyDalela/CodeChallenge/blob/2dbf5b1574bf0eec97815413b3a789acf9e9bfcc/Challenge-1/Tire.png)
+![Arch](https://github.com/dalelashrey/technicalchallenge/blob/main/Challenge1/Arch.png)
 
 * Tier 1 is the front-end tier installed with IIS.
 * Tier 2 is the Business or middleware tier.
