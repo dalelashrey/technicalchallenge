@@ -13,7 +13,7 @@ The infrastructure deployed whing the defined configuration can be seen as in th
 * Middleware VMs are in availibility zones
 * replication can be enabled on Mysql db
 
-* Configuration on all the nodes is managed using Powershell DSC from bastion host on WinRM
+
 
 &nbsp;
 &nbsp;
