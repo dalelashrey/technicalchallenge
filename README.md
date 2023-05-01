@@ -20,7 +20,7 @@ The code allows for a particular data key to be retrieved individually
 
  ### Solution -
  
-  Download Challenge2.ps1 and run it with powershell, prompts will guide you through the steps. Inputs VM name/subcriptionid/data key(optional)
+  Download Challenge2.ps1 and run it with powershell, prompts will guide you through the steps. Inputs VM name/RG/subcriptionid/data key(optional)
   
 ```
   #With data key 
