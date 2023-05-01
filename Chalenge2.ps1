@@ -5,7 +5,7 @@ Import-Module AzureRM.Profile
 
 $SubscriptionID = Read-Host "Enter Subscription ID"
 $vmName = Read-Host "Enter the name of the VM"
-
+$rg =  Read-Host "Enter the name of the resourcegroup for this VM"
 
 # Set the subscription context
 Set-AzContext -SubscriptionId "$SubscriptionID"
@@ -14,7 +14,7 @@ Set-AzContext -SubscriptionId "$SubscriptionID"
 Connect-AzureAD
 
 # Get the VM resource ID
-$vmResourceId = (Get-AzVM -Name $vmName).Id
+$vmResourceId = (Get-AzVM -Name $vmName -ResourceGroupName $rg).Id
 
 # Define the Graph API endpoint for the VM
 $graphApiEndpoint = "https://graph.microsoft.com/v1.0/$vmResourceId"
